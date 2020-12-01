@@ -2,12 +2,11 @@ import React from 'react';
 import {
 	BrowserRouter as Router,
 	Route,
-	NavLink,
 	Redirect,
 	Switch,
 } from 'react-router-dom';
-import NewPlace from './pages/NewPlace/NewPlace';
-import Users from './pages/Users/Users';
+import NewPlace from './places/pages/NewPlace/NewPlace';
+import Users from './user/pages/Users/Users';
 
 const App = () => {
 	return (
